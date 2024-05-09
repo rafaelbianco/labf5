@@ -14,13 +14,13 @@ docker-compose up
 
 Em cada container nginx existem 3 "sites" hospedados. Um que atende o "/", o site1, que atende no "/site1" e por fim o site2 disponível em "/site2". Apesar de parecidos, o conteúdo das imagens são um pouco diferentes. Com isso, é possível ver o path utilizado para carregar as imagens.
 
-Servidor Green/Verde - Site Default - http://localhost:3000
-Servidor Green/Verde - Site Site 1 - http://localhost:3000/site1
-Servidor Green/Verde - Site Site 2 - http://localhost:3000/site2
-
-Servidor Red/Vermelho - Site Default - http://localhost:3001
-Servidor Red/Vermelho - Site 1 - http://localhost:3001/site1
-Servidor Red/Vermelho - Site 2 - http://localhost:3001/site2
+Servidor Green/Verde - Site Default - http://localhost:3000  
+Servidor Green/Verde - Site Site 1 - http://localhost:3000/site1  
+Servidor Green/Verde - Site Site 2 - http://localhost:3000/site2  
+  
+Servidor Red/Vermelho - Site Default - http://localhost:3001  
+Servidor Red/Vermelho - Site 1 - http://localhost:3001/site1  
+Servidor Red/Vermelho - Site 2 - http://localhost:3001/site2  
 
 
 ## License
